@@ -9,4 +9,7 @@
 void blink(unsigned int led);
 void blink_count(unsigned int led, unsigned int count);
 
+void Button_init(void);
+void Button_check(unsigned int led);
+
 #endif
